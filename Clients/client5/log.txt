@@ -1,0 +1,817 @@
+2013.13.24 05:13:21  Incoming message :REQUEST:20:4
+2013.13.24 05:13:21  Added message in WAITING QUEUE: REQUEST:20:4 at position 0
+2013.13.24 05:13:21  Sent LOCKED Message to client 4
+2013.13.24 05:13:21  Incoming message :REQUEST:23:5
+2013.13.24 05:13:21  Added message in WAITING QUEUE: REQUEST:23:5 at position 0
+2013.13.24 05:13:21  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:21  Incoming message :FAILED:25:5
+2013.13.24 05:13:21  Incoming message :FAILED:25:3
+2013.13.24 05:13:21  Incoming message :FAILED:25:2
+2013.13.24 05:13:21  Incoming message :LOCKED:25:6
+2013.13.24 05:13:21  CanEnterCriticalSection quorum[-1, -1, -1, 1]
+2013.13.24 05:13:21  CanEnterCriticalSection response: false
+2013.13.24 05:13:21  Incoming message :INQUIRE:27:6
+2013.13.24 05:13:21  CheckClientFailedResponse quorum[-1, -1, -1, 1]
+2013.13.24 05:13:21  CheckClientFailedResponse responsetrue
+2013.13.24 05:13:21  Sent RELINQUISH Message to client 6
+2013.13.24 05:13:22  Incoming message :REQUEST:23:7
+2013.13.24 05:13:22  Added message in WAITING QUEUE: REQUEST:23:7 at position 0
+2013.13.24 05:13:22  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:23  Incoming message :LOCKED:63:3
+2013.13.24 05:13:23  CanEnterCriticalSection quorum[-1, 1, -1, 1]
+2013.13.24 05:13:23  CanEnterCriticalSection response: false
+2013.13.24 05:13:23  Incoming message :LOCKED:66:2
+2013.13.24 05:13:23  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:23  CanEnterCriticalSection response: false
+2013.13.24 05:13:23  Incoming message :RELEASE:68:4
+2013.13.24 05:13:23  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:23  Incoming message :LOCKED:70:5
+2013.13.24 05:13:23  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:23  CanEnterCriticalSection response: true
+2013.13.24 05:13:23  Sent RELEASE Message to all clients 
+2013.13.24 05:13:23  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:23  Incoming message :RELEASE:72:5
+2013.13.24 05:13:23  Incoming message :REQUEST:73:5
+2013.13.24 05:13:23  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:23  Incoming message :LOCKED:74:6
+2013.13.24 05:13:23  CanEnterCriticalSection quorum[1]
+2013.13.24 05:13:23  CanEnterCriticalSection response: false
+2013.13.24 05:13:23  Added message in WAITING QUEUE: REQUEST:73:5 at position 0
+2013.13.24 05:13:23  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:23  Incoming message :FAILED:76:6
+2013.13.24 05:13:23  Incoming message :FAILED:78:5
+2013.13.24 05:13:23  Incoming message :FAILED:75:3
+2013.13.24 05:13:23  Incoming message :REQUEST:69:4
+2013.13.24 05:13:23  Incoming message :FAILED:75:2
+2013.13.24 05:13:23  Added message in WAITING QUEUE: REQUEST:69:4 at position 0
+2013.13.24 05:13:23  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:23  Incoming message :RELEASE:81:7
+2013.13.24 05:13:23  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:23  Incoming message :REQUEST:82:7
+2013.13.24 05:13:23  Added message in WAITING QUEUE: REQUEST:82:7 at position 0
+2013.13.24 05:13:23  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:24  Incoming message :LOCKED:106:3
+2013.13.24 05:13:24  Incoming message :LOCKED:108:2
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :RELEASE:110:4
+2013.13.24 05:13:24  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:24  Incoming message :LOCKED:113:6
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:24  Incoming message :REQUEST:111:4
+2013.13.24 05:13:24  Incoming message :LOCKED:112:5
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: true
+2013.13.24 05:13:24  Sent RELEASE Message to all clients 
+2013.13.24 05:13:24  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:24  Incoming message :RELEASE:116:5
+2013.13.24 05:13:24  Incoming message :REQUEST:117:5
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:111:4 at position 0
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:24  Incoming message :FAILED:120:3
+2013.13.24 05:13:24  Incoming message :FAILED:121:6
+2013.13.24 05:13:24  Incoming message :FAILED:121:2
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:117:5 at position 1
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:24  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:24  Incoming message :FAILED:121:5
+2013.13.24 05:13:24  Incoming message :RELEASE:125:7
+2013.13.24 05:13:24  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:24  Incoming message :REQUEST:126:7
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:126:7 at position 0
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:24  Incoming message :LOCKED:147:3
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :LOCKED:150:2
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :RELEASE:155:4
+2013.13.24 05:13:24  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:24  Incoming message :LOCKED:157:5
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :REQUEST:156:4
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:156:4 at position 0
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:24  Incoming message :LOCKED:158:6
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: true
+2013.13.24 05:13:24  Sent RELEASE Message to all clients 
+2013.13.24 05:13:24  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:24  Incoming message :RELEASE:162:5
+2013.13.24 05:13:24  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:24  Incoming message :REQUEST:163:5
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:163:5 at position 0
+2013.13.24 05:13:24  Incoming message :RELEASE:168:7
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:24  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:24  Incoming message :REQUEST:169:7
+2013.13.24 05:13:24  Incoming message :FAILED:165:6
+2013.13.24 05:13:24  Incoming message :FAILED:166:3
+2013.13.24 05:13:24  Incoming message :FAILED:167:5
+2013.13.24 05:13:24  Incoming message :FAILED:165:2
+2013.13.24 05:13:24  Added message in WAITING QUEUE: REQUEST:169:7 at position 0
+2013.13.24 05:13:24  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:24  Incoming message :LOCKED:191:3
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :LOCKED:196:2
+2013.13.24 05:13:24  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:24  CanEnterCriticalSection response: false
+2013.13.24 05:13:24  Incoming message :REQUEST:199:4
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:199:4 at position 1
+2013.13.24 05:13:25  Incoming message :LOCKED:202:6
+2013.13.24 05:13:25  Incoming message :RELEASE:198:4
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:25  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :LOCKED:203:5
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: true
+2013.13.24 05:13:25  Sent RELEASE Message to all clients 
+2013.13.24 05:13:25  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:25  Incoming message :RELEASE:206:5
+2013.13.24 05:13:25  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:25  Incoming message :REQUEST:207:5
+2013.13.24 05:13:25  Incoming message :RELEASE:211:7
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:207:5 at position 0
+2013.13.24 05:13:25  Incoming message :FAILED:211:2
+2013.13.24 05:13:25  Incoming message :FAILED:210:3
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:25  Incoming message :FAILED:209:6
+2013.13.24 05:13:25  Incoming message :REQUEST:212:7
+2013.13.24 05:13:25  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:25  Incoming message :FAILED:211:5
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:212:7 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:25  Incoming message :LOCKED:237:2
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, -1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :REQUEST:240:4
+2013.13.24 05:13:25  Incoming message :RELEASE:239:4
+2013.13.24 05:13:25  Incoming message :LOCKED:241:6
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:240:4 at position 1
+2013.13.24 05:13:25  Incoming message :LOCKED:239:3
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:25  Incoming message :LOCKED:246:5
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: true
+2013.13.24 05:13:25  Sent RELEASE Message to all clients 
+2013.13.24 05:13:25  Incoming message :RELEASE:248:5
+2013.13.24 05:13:25  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:25  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:25  Incoming message :REQUEST:249:5
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:249:5 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:25  Incoming message :RELEASE:253:7
+2013.13.24 05:13:25  Incoming message :FAILED:253:5
+2013.13.24 05:13:25  Incoming message :FAILED:251:2
+2013.13.24 05:13:25  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:25  Incoming message :REQUEST:254:7
+2013.13.24 05:13:25  Incoming message :FAILED:253:6
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:254:7 at position 0
+2013.13.24 05:13:25  Incoming message :FAILED:252:3
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:25  Incoming message :LOCKED:275:3
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :LOCKED:280:2
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :RELEASE:282:4
+2013.13.24 05:13:25  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:25  Incoming message :LOCKED:284:6
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :REQUEST:283:4
+2013.13.24 05:13:25  Incoming message :LOCKED:284:5
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:283:4 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: true
+2013.13.24 05:13:25  Sent RELEASE Message to all clients 
+2013.13.24 05:13:25  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:25  Incoming message :REQUEST:290:5
+2013.13.24 05:13:25  Incoming message :RELEASE:289:5
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:290:5 at position 1
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:25  Incoming message :FAILED:292:5
+2013.13.24 05:13:25  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:25  Incoming message :FAILED:294:2
+2013.13.24 05:13:25  Incoming message :FAILED:294:6
+2013.13.24 05:13:25  Incoming message :FAILED:293:3
+2013.13.24 05:13:25  Incoming message :RELEASE:297:7
+2013.13.24 05:13:25  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:25  Incoming message :REQUEST:298:7
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:298:7 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:25  Incoming message :LOCKED:318:3
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :LOCKED:323:2
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :RELEASE:325:4
+2013.13.24 05:13:25  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:25  Incoming message :LOCKED:327:5
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: false
+2013.13.24 05:13:25  Incoming message :REQUEST:326:4
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:326:4 at position 0
+2013.13.24 05:13:25  Incoming message :LOCKED:331:6
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:25  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:25  CanEnterCriticalSection response: true
+2013.13.24 05:13:25  Sent RELEASE Message to all clients 
+2013.13.24 05:13:25  Incoming message :RELEASE:333:5
+2013.13.24 05:13:25  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:25  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:25  Incoming message :REQUEST:334:5
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:334:5 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:25  Incoming message :FAILED:338:5
+2013.13.24 05:13:25  Incoming message :FAILED:336:3
+2013.13.24 05:13:25  Incoming message :FAILED:338:2
+2013.13.24 05:13:25  Incoming message :RELEASE:340:7
+2013.13.24 05:13:25  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:25  Incoming message :FAILED:338:6
+2013.13.24 05:13:25  Incoming message :REQUEST:341:7
+2013.13.24 05:13:25  Added message in WAITING QUEUE: REQUEST:341:7 at position 0
+2013.13.24 05:13:25  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:26  Incoming message :LOCKED:363:3
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:368:2
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :RELEASE:372:4
+2013.13.24 05:13:26  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:26  Incoming message :LOCKED:374:5
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :REQUEST:373:4
+2013.13.24 05:13:26  Incoming message :LOCKED:374:6
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:373:4 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: true
+2013.13.24 05:13:26  Sent RELEASE Message to all clients 
+2013.13.24 05:13:26  Incoming message :RELEASE:379:5
+2013.13.24 05:13:26  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:26  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:26  Incoming message :REQUEST:380:5
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:380:5 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:26  Incoming message :FAILED:383:3
+2013.13.24 05:13:26  Incoming message :FAILED:383:2
+2013.13.24 05:13:26  Incoming message :FAILED:384:5
+2013.13.24 05:13:26  Incoming message :FAILED:384:6
+2013.13.24 05:13:26  Incoming message :RELEASE:384:7
+2013.13.24 05:13:26  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:26  Incoming message :REQUEST:385:7
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:385:7 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:26  Incoming message :LOCKED:413:2
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, -1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :RELEASE:416:4
+2013.13.24 05:13:26  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:26  Incoming message :REQUEST:417:4
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:417:4 at position 0
+2013.13.24 05:13:26  Incoming message :LOCKED:418:6
+2013.13.24 05:13:26  Incoming message :LOCKED:410:3
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:418:5
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: true
+2013.13.24 05:13:26  Sent RELEASE Message to all clients 
+2013.13.24 05:13:26  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:26  Incoming message :RELEASE:424:5
+2013.13.24 05:13:26  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:26  Incoming message :FAILED:428:2
+2013.13.24 05:13:26  Incoming message :REQUEST:425:5
+2013.13.24 05:13:26  Incoming message :RELEASE:431:7
+2013.13.24 05:13:26  Incoming message :FAILED:428:3
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:425:5 at position 0
+2013.13.24 05:13:26  Incoming message :REQUEST:432:7
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:26  Incoming message :FAILED:431:5
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:432:7 at position 1
+2013.13.24 05:13:26  Incoming message :FAILED:427:6
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:26  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:26  Incoming message :LOCKED:447:3
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:455:2
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :REQUEST:462:4
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:462:4 at position 1
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:26  Incoming message :RELEASE:461:4
+2013.13.24 05:13:26  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:26  Incoming message :LOCKED:466:5
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:463:6
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: true
+2013.13.24 05:13:26  Sent RELEASE Message to all clients 
+2013.13.24 05:13:26  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:26  Incoming message :RELEASE:469:5
+2013.13.24 05:13:26  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:26  Incoming message :REQUEST:470:5
+2013.13.24 05:13:26  Incoming message :FAILED:473:2
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:470:5 at position 0
+2013.13.24 05:13:26  Incoming message :FAILED:472:6
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:26  Incoming message :RELEASE:475:7
+2013.13.24 05:13:26  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:26  Incoming message :REQUEST:476:7
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:476:7 at position 0
+2013.13.24 05:13:26  Incoming message :FAILED:474:5
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:26  Incoming message :FAILED:473:3
+2013.13.24 05:13:26  Incoming message :LOCKED:502:2
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, -1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:501:3
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :RELEASE:508:4
+2013.13.24 05:13:26  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:26  Incoming message :LOCKED:513:6
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:510:5
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: true
+2013.13.24 05:13:26  Sent RELEASE Message to all clients 
+2013.13.24 05:13:26  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:26  Incoming message :REQUEST:509:4
+2013.13.24 05:13:26  Incoming message :REQUEST:517:5
+2013.13.24 05:13:26  Incoming message :RELEASE:516:5
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:509:4 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:26  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:517:5 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:26  Incoming message :FAILED:523:5
+2013.13.24 05:13:26  Incoming message :FAILED:519:6
+2013.13.24 05:13:26  Incoming message :FAILED:520:3
+2013.13.24 05:13:26  Incoming message :RELEASE:523:7
+2013.13.24 05:13:26  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:26  Incoming message :REQUEST:524:7
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:524:7 at position 0
+2013.13.24 05:13:26  Incoming message :FAILED:521:2
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:26  Incoming message :LOCKED:543:3
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:548:2
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :RELEASE:552:4
+2013.13.24 05:13:26  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:26  Incoming message :LOCKED:554:6
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: false
+2013.13.24 05:13:26  Incoming message :LOCKED:554:5
+2013.13.24 05:13:26  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:26  CanEnterCriticalSection response: true
+2013.13.24 05:13:26  Incoming message :REQUEST:553:4
+2013.13.24 05:13:26  Sent RELEASE Message to all clients 
+2013.13.24 05:13:26  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:26  Incoming message :REQUEST:558:5
+2013.13.24 05:13:26  Incoming message :RELEASE:557:5
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:553:4 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:26  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:26  Incoming message :FAILED:561:6
+2013.13.24 05:13:26  Incoming message :FAILED:562:2
+2013.13.24 05:13:26  Added message in WAITING QUEUE: REQUEST:558:5 at position 0
+2013.13.24 05:13:26  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:27  Incoming message :FAILED:564:5
+2013.13.24 05:13:27  Incoming message :FAILED:561:3
+2013.13.24 05:13:27  Incoming message :RELEASE:564:7
+2013.13.24 05:13:27  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:27  Incoming message :REQUEST:565:7
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:565:7 at position 0
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:27  Incoming message :LOCKED:586:3
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:589:2
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :RELEASE:594:4
+2013.13.24 05:13:27  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:27  Incoming message :REQUEST:595:4
+2013.13.24 05:13:27  Incoming message :LOCKED:596:5
+2013.13.24 05:13:27  Incoming message :LOCKED:596:6
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:595:4 at position 0
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: true
+2013.13.24 05:13:27  Sent RELEASE Message to all clients 
+2013.13.24 05:13:27  Incoming message :RELEASE:601:5
+2013.13.24 05:13:27  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:27  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:27  Incoming message :REQUEST:602:5
+2013.13.24 05:13:27  Incoming message :FAILED:605:2
+2013.13.24 05:13:27  Incoming message :RELEASE:606:7
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:602:5 at position 0
+2013.13.24 05:13:27  Incoming message :REQUEST:607:7
+2013.13.24 05:13:27  Incoming message :FAILED:606:6
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:27  Incoming message :FAILED:606:5
+2013.13.24 05:13:27  Incoming message :FAILED:605:3
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:607:7 at position 1
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:27  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:27  Incoming message :LOCKED:630:3
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:635:2
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :RELEASE:640:4
+2013.13.24 05:13:27  Incoming message :REQUEST:641:4
+2013.13.24 05:13:27  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:27  Incoming message :LOCKED:642:5
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:641:4 at position 0
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:645:6
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: true
+2013.13.24 05:13:27  Sent RELEASE Message to all clients 
+2013.13.24 05:13:27  Incoming message :RELEASE:647:5
+2013.13.24 05:13:27  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:27  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:27  Incoming message :REQUEST:648:5
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:648:5 at position 0
+2013.13.24 05:13:27  Incoming message :FAILED:651:6
+2013.13.24 05:13:27  Incoming message :RELEASE:652:7
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:27  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:27  Incoming message :REQUEST:653:7
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:653:7 at position 0
+2013.13.24 05:13:27  Incoming message :FAILED:652:5
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:27  Incoming message :FAILED:652:2
+2013.13.24 05:13:27  Incoming message :FAILED:651:3
+2013.13.24 05:13:27  Incoming message :LOCKED:680:3
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :RELEASE:684:4
+2013.13.24 05:13:27  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:27  Incoming message :REQUEST:685:4
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:685:4 at position 0
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:27  Incoming message :LOCKED:681:2
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:689:6
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:686:5
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: true
+2013.13.24 05:13:27  Sent RELEASE Message to all clients 
+2013.13.24 05:13:27  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:27  Incoming message :REQUEST:693:5
+2013.13.24 05:13:27  Incoming message :RELEASE:692:5
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:693:5 at position 1
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:27  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:27  Incoming message :FAILED:695:5
+2013.13.24 05:13:27  Incoming message :FAILED:696:2
+2013.13.24 05:13:27  Incoming message :FAILED:696:6
+2013.13.24 05:13:27  Incoming message :RELEASE:700:7
+2013.13.24 05:13:27  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:27  Incoming message :REQUEST:701:7
+2013.13.24 05:13:27  Added message in WAITING QUEUE: REQUEST:701:7 at position 0
+2013.13.24 05:13:27  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:27  Incoming message :FAILED:696:3
+2013.13.24 05:13:27  Incoming message :LOCKED:722:3
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :LOCKED:727:2
+2013.13.24 05:13:27  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:27  CanEnterCriticalSection response: false
+2013.13.24 05:13:27  Incoming message :RELEASE:731:4
+2013.13.24 05:13:28  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:28  Incoming message :REQUEST:732:4
+2013.13.24 05:13:28  Incoming message :LOCKED:733:5
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:732:4 at position 0
+2013.13.24 05:13:28  Incoming message :LOCKED:734:6
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: true
+2013.13.24 05:13:28  Sent RELEASE Message to all clients 
+2013.13.24 05:13:28  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:28  Incoming message :RELEASE:738:5
+2013.13.24 05:13:28  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:28  Incoming message :REQUEST:739:5
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:739:5 at position 0
+2013.13.24 05:13:28  Incoming message :FAILED:742:6
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:28  Incoming message :FAILED:743:5
+2013.13.24 05:13:28  Incoming message :RELEASE:743:7
+2013.13.24 05:13:28  Incoming message :FAILED:742:3
+2013.13.24 05:13:28  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:28  Incoming message :REQUEST:744:7
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:744:7 at position 0
+2013.13.24 05:13:28  Incoming message :FAILED:742:2
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:28  Incoming message :LOCKED:767:3
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :LOCKED:773:2
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :RELEASE:775:4
+2013.13.24 05:13:28  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:28  Incoming message :REQUEST:776:4
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:776:4 at position 0
+2013.13.24 05:13:28  Incoming message :LOCKED:777:5
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :LOCKED:777:6
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: true
+2013.13.24 05:13:28  Sent RELEASE Message to all clients 
+2013.13.24 05:13:28  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:28  Incoming message :RELEASE:782:5
+2013.13.24 05:13:28  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:28  Incoming message :FAILED:785:3
+2013.13.24 05:13:28  Incoming message :REQUEST:783:5
+2013.13.24 05:13:28  Incoming message :FAILED:786:2
+2013.13.24 05:13:28  Incoming message :FAILED:786:6
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:783:5 at position 0
+2013.13.24 05:13:28  Incoming message :REQUEST:790:7
+2013.13.24 05:13:28  Incoming message :RELEASE:789:7
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:28  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:790:7 at position 0
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:28  Incoming message :FAILED:788:5
+2013.13.24 05:13:28  Incoming message :LOCKED:814:2
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, -1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :LOCKED:813:3
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :RELEASE:819:4
+2013.13.24 05:13:28  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:28  Incoming message :LOCKED:821:5
+2013.13.24 05:13:28  Incoming message :LOCKED:821:6
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: true
+2013.13.24 05:13:28  Incoming message :REQUEST:820:4
+2013.13.24 05:13:28  Sent RELEASE Message to all clients 
+2013.13.24 05:13:28  Incoming message :RELEASE:824:5
+2013.13.24 05:13:28  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:28  Incoming message :REQUEST:825:5
+2013.13.24 05:13:28  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:820:4 at position 0
+2013.13.24 05:13:28  Incoming message :FAILED:828:6
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:825:5 at position 0
+2013.13.24 05:13:28  Incoming message :FAILED:827:3
+2013.13.24 05:13:28  Incoming message :FAILED:829:2
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:28  Incoming message :FAILED:832:5
+2013.13.24 05:13:28  Incoming message :RELEASE:831:7
+2013.13.24 05:13:28  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:28  Incoming message :REQUEST:832:7
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:832:7 at position 0
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:28  Incoming message :LOCKED:854:3
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :LOCKED:859:2
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :REQUEST:862:4
+2013.13.24 05:13:28  Incoming message :RELEASE:861:4
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:862:4 at position 1
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:28  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:28  Incoming message :LOCKED:866:5
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :LOCKED:863:6
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: true
+2013.13.24 05:13:28  Sent RELEASE Message to all clients 
+2013.13.24 05:13:28  Incoming message :RELEASE:869:5
+2013.13.24 05:13:28  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:28  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:28  Incoming message :REQUEST:870:5
+2013.13.24 05:13:28  Incoming message :FAILED:873:2
+2013.13.24 05:13:28  Incoming message :FAILED:874:6
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:870:5 at position 0
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:28  Incoming message :FAILED:874:5
+2013.13.24 05:13:28  Incoming message :REQUEST:875:7
+2013.13.24 05:13:28  Incoming message :FAILED:873:3
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:875:7 at position 1
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:28  Incoming message :RELEASE:874:7
+2013.13.24 05:13:28  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:28  Incoming message :LOCKED:904:2
+2013.13.24 05:13:28  Incoming message :LOCKED:899:3
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, -1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :RELEASE:909:4
+2013.13.24 05:13:28  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:28  Incoming message :LOCKED:911:5
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: false
+2013.13.24 05:13:28  Incoming message :REQUEST:910:4
+2013.13.24 05:13:28  Added message in WAITING QUEUE: REQUEST:910:4 at position 0
+2013.13.24 05:13:28  Incoming message :LOCKED:913:6
+2013.13.24 05:13:28  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:28  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:28  CanEnterCriticalSection response: true
+2013.13.24 05:13:28  Sent RELEASE Message to all clients 
+2013.13.24 05:13:28  Incoming message :RELEASE:916:5
+2013.13.24 05:13:28  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:29  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:29  Incoming message :FAILED:919:3
+2013.13.24 05:13:29  Incoming message :REQUEST:917:5
+2013.13.24 05:13:29  Incoming message :FAILED:920:6
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:917:5 at position 0
+2013.13.24 05:13:29  Incoming message :FAILED:921:2
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:29  Incoming message :FAILED:922:5
+2013.13.24 05:13:29  Incoming message :REQUEST:924:7
+2013.13.24 05:13:29  Incoming message :RELEASE:923:7
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:924:7 at position 1
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:29  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:29  Incoming message :LOCKED:947:3
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :LOCKED:950:2
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :RELEASE:955:4
+2013.13.24 05:13:29  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:29  Incoming message :LOCKED:957:5
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :REQUEST:956:4
+2013.13.24 05:13:29  Incoming message :LOCKED:957:6
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:956:4 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: true
+2013.13.24 05:13:29  Sent RELEASE Message to all clients 
+2013.13.24 05:13:29  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:29  Incoming message :RELEASE:962:5
+2013.13.24 05:13:29  Incoming message :REQUEST:963:5
+2013.13.24 05:13:29  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:963:5 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:29  Incoming message :FAILED:967:5
+2013.13.24 05:13:29  Incoming message :FAILED:965:3
+2013.13.24 05:13:29  Incoming message :FAILED:967:6
+2013.13.24 05:13:29  Incoming message :FAILED:967:2
+2013.13.24 05:13:29  Incoming message :RELEASE:969:7
+2013.13.24 05:13:29  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:29  Incoming message :REQUEST:970:7
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:970:7 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:29  Incoming message :LOCKED:992:3
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :LOCKED:997:2
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :RELEASE:1001:4
+2013.13.24 05:13:29  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:29  Incoming message :LOCKED:1003:5
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :LOCKED:1003:6
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: true
+2013.13.24 05:13:29  Incoming message :REQUEST:1002:4
+2013.13.24 05:13:29  Sent RELEASE Message to all clients 
+2013.13.24 05:13:29  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:29  Incoming message :RELEASE:1006:5
+2013.13.24 05:13:29  Incoming message :REQUEST:1007:5
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1002:4 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:29  Incoming message :FAILED:1012:6
+2013.13.24 05:13:29  Incoming message :FAILED:1011:2
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1007:5 at position 1
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:29  Incoming message :FAILED:1010:3
+2013.13.24 05:13:29  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:29  Incoming message :FAILED:1011:5
+2013.13.24 05:13:29  Incoming message :RELEASE:1015:7
+2013.13.24 05:13:29  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:29  Incoming message :REQUEST:1016:7
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1016:7 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:29  Incoming message :LOCKED:1036:3
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :LOCKED:1041:2
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :RELEASE:1045:4
+2013.13.24 05:13:29  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:29  Incoming message :REQUEST:1046:4
+2013.13.24 05:13:29  Incoming message :LOCKED:1047:5
+2013.13.24 05:13:29  Incoming message :LOCKED:1047:6
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1046:4 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, -1, 1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: true
+2013.13.24 05:13:29  Sent RELEASE Message to all clients 
+2013.13.24 05:13:29  Incoming message :RELEASE:1052:5
+2013.13.24 05:13:29  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:29  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:29  Incoming message :REQUEST:1053:5
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1053:5 at position 0
+2013.13.24 05:13:29  Incoming message :FAILED:1056:6
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:29  Incoming message :FAILED:1055:2
+2013.13.24 05:13:29  Incoming message :REQUEST:1059:7
+2013.13.24 05:13:29  Incoming message :FAILED:1057:5
+2013.13.24 05:13:29  Incoming message :FAILED:1056:3
+2013.13.24 05:13:29  Incoming message :RELEASE:1058:7
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1059:7 at position 1
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:29  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:29  Incoming message :LOCKED:1083:3
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:29  Incoming message :LOCKED:1085:2
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :RELEASE:1089:4
+2013.13.24 05:13:29  Sent LOCKED Message to client 5after getting RELEASE message from client 4
+2013.13.24 05:13:29  Incoming message :LOCKED:1091:5
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, -1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: false
+2013.13.24 05:13:29  Incoming message :REQUEST:1090:4
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1090:4 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 4
+2013.13.24 05:13:29  Incoming message :LOCKED:1094:6
+2013.13.24 05:13:29  CanEnterCriticalSection quorum[1, 1, 1, 1]
+2013.13.24 05:13:29  CanEnterCriticalSection response: true
+2013.13.24 05:13:29  Sent RELEASE Message to all clients 
+2013.13.24 05:13:29  Incoming message :RELEASE:1096:5
+2013.13.24 05:13:29  Sent REQUEST Message to all clients in quorum 
+2013.13.24 05:13:29  Sent LOCKED Message to client 7after getting RELEASE message from client 5
+2013.13.24 05:13:29  Incoming message :REQUEST:1097:5
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1097:5 at position 0
+2013.13.24 05:13:29  Incoming message :FAILED:1099:6
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 5
+2013.13.24 05:13:29  Incoming message :FAILED:1099:2
+2013.13.24 05:13:29  Incoming message :FAILED:1100:3
+2013.13.24 05:13:29  Incoming message :RELEASE:1103:7
+2013.13.24 05:13:29  Sent LOCKED Message to client 4after getting RELEASE message from client 7
+2013.13.24 05:13:29  Incoming message :FAILED:1101:5
+2013.13.24 05:13:29  Incoming message :REQUEST:1104:7
+2013.13.24 05:13:29  Added message in WAITING QUEUE: REQUEST:1104:7 at position 0
+2013.13.24 05:13:29  Sent FAILED Message to current waiting due to higher incoming message client 7
+2013.13.24 05:13:30  Incoming message :LOCKED:1125:3
+2013.13.24 05:13:30  CanEnterCriticalSection quorum[-1, 1, -1, -1]
+2013.13.24 05:13:30  CanEnterCriticalSection response: false
+2013.13.24 05:13:30  Incoming message :LOCKED:1130:2
+2013.13.24 05:13:30  CanEnterCriticalSection quorum[1, 1, -1, -1]
+2013.13.24 05:13:30  CanEnterCriticalSection response: false

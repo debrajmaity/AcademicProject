@@ -1,0 +1,14 @@
+ClientID net01.utdallas.edu MessageCount: 1
+REQUEST:5
+LOCKED:3
+RELEASED:4
+FAILED:3
+RELINQUISH:0
+INQUIRE:0
+ClientID net01.utdallas.edu MessageCount: 0
+REQUEST:1
+LOCKED:3
+RELEASED:1
+FAILED:2
+RELINQUISH:0
+INQUIRE:0
